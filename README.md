@@ -4,8 +4,8 @@ Application radio française pour Old 3DS et New 3DS. Six stations : Rire & Chan
 
 ## Télécharger
 
-- [Shield Radio 2.0.2 — CIA](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.2/shield-radio.cia) pour installer l’application.
-- [Shield Radio 2.0.2 — 3DSX](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.2/shield-radio.3dsx) pour Homebrew Launcher.
+- [Shield Radio 2.0.3 — CIA avec bannière « SHIELD RADIO FRANCE »](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.3/shield-radio.cia) pour installer l’application.
+- [Shield Radio 2.0.2 — 3DSX](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.2/shield-radio.3dsx) pour Homebrew Launcher ; cette version n’a pas changé.
 
 Activer le Wi-Fi avant de lancer l’application. La console ne dispose pas de tuner FM : l’accès Internet est nécessaire. Avec le capot fermé, l’application reste active et consomme donc davantage de batterie.
 
