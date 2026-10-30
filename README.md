@@ -30,5 +30,5 @@ Bon cool au moins ça m'apprends encore plus l'optimisation.
 bref les changement à venir ?
 Je vais les mettre d'abords à l'ecrit puis réfléchir à ce que pourrais apporter de plus cette app..
 -La rendre international, vous galerez avec les liens url ? Pas de panique shield Radio a deja un bon stock de radio préenregistré ! 
-Ce projet sera open source, car de mon avis il est **pour l'instant** stable.
+Ce projet sera open source, car de mon avis il est **pour l'instant** stable. (plus ou moins selon les perspectives 💀)
 J'assume completement l'usage de codex.
