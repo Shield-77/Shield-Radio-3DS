@@ -20,3 +20,6 @@ Cette fois, le fichier `config.toml` de Codex s'est retrouvé corrompu, ce qui e
 
 Bref, le Thomson a encore essayé de saboter le développement de SHIELD Radio. 😂
 Maintenant que c est résolue je vais étudier comment cook à mort shield radio (codex met simplement mes idées au codes mais ça ne fait pas de moi un vrai dev🔥)
+Je trouve ça top de pouvoir mettre mes idées au codes avec codex, je vais essayer de voir comment apprendre le codage ou de mieux exploiter codex.
+
+<img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/26ece564-8dde-4585-a48d-14f57643c672" />
