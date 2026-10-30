@@ -11,3 +11,12 @@ Application radio française pour Old 3DS et New 3DS. Six stations : Rire & Chan
 La v2.0.5 ajoute une protection lors d’une fermeture du capot très rapide pendant le lancement. Elle ne peut pas garantir le comportement du menu HOME avant que l’application prenne la main. Test sur console encore nécessaire.
 
 Activer le Wi-Fi avant de lancer l’application. La console ne dispose pas de tuner FM : l’accès Internet est nécessaire. Avec le capot fermé pendant la lecture, l’application reste active et consomme donc davantage de batterie.
+
+Désolé pour le retard des mises à jour ! 😭
+
+Je n'arrivais plus à lancer Codex parce que mon bon vieux Thomson a encore décidé de ne pas coopérer au pire moment. 💀
+
+Cette fois, le fichier `config.toml` de Codex s'est retrouvé corrompu, ce qui empêchait complètement l'application de démarrer.
+
+Bref, le Thomson a encore essayé de saboter le développement de SHIELD Radio. 😂
+Maintenant que c est résolue je vais étudier comment cook à mort shield radio (codex met simplement mes idées au codes mais ça ne fait pas de moi un vrai dev🔥)
