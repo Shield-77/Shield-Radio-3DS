@@ -24,7 +24,7 @@ Je trouve ça top de pouvoir mettre mes idées au codes avec codex, je vais essa
 
 <img width="1448" height="1086" alt="image" src="https://github.com/user-attachments/assets/26ece564-8dde-4585-a48d-14f57643c672" />
 
-En meme temps qui a eu cette idée de fouttre windows avec 4Go de ram et un si petit cpu 😭
+En meme temps qui a eu cette idée de lui fouttre windows avec 4Go de ram et un si petit cpu 😭
 Bon cool au moins ça m'apprends encore plus l'optimisation.
 
 bref les changement à venir ?
