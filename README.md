@@ -1,4 +1,5 @@
 # Shield Radio pour Nintendo 3DS
+**Codex was used to generate the C++ code.**
 
 Application radio française pour Old 3DS et New 3DS. Six stations : Rire & Chansons, NRJ, Nostalgie, France Inter, Fun Radio et franceinfo. La lecture au casque et le Wi-Fi capot fermé ont été confirmés sur console pour une version antérieure.
 
