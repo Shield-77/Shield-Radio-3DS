@@ -1,0 +1,32 @@
+BasicInfo:
+  Title: Radio3DS
+  ProductCode: CTR-P-RD3S
+  Logo: Nintendo
+TitleInfo:
+  Category: Application
+  UniqueId: 0xF6431
+Option:
+  UseOnSD: true
+  FreeProductCode: true
+  EnableCrypt: false
+  EnableCompress: true
+AccessControlInfo:
+  SystemMode: 64MB
+  IdealProcessor: 0
+  AffinityMask: 1
+  Priority: 32
+  MaxCpu: 0x9E
+  HandleTableSize: 0x200
+  ServiceAccessControl:
+   - APT:U
+   - ac:u
+   - dsp::DSP
+   - fs:USER
+   - gsp::Gpu
+   - hid:USER
+   - soc:U
+   - ptm:u
+SystemControlInfo:
+  SaveDataSize: 0KB
+  RemasterVersion: 2
+  StackSize: 0x40000

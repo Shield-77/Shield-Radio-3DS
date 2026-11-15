@@ -1,33 +1,25 @@
-# Shield Radio pour Nintendo 3DS
-**Codex was used to generate the C++ code.**
+# SHIELD Radio
 
-Application radio française pour Old 3DS et New 3DS. Six stations : Rire & Chansons, NRJ, Nostalgie, France Inter, Fun Radio et franceinfo. La lecture au casque et le Wi-Fi capot fermé ont été confirmés sur console pour une version antérieure.
+SHIELD Radio est un lecteur de radios Internet pour 3DS, conçu pour rester utilisable sur Old 3DS. Il a besoin du Wi-Fi ; la console ne reçoit pas la FM directement.
 
-## Télécharger
+## Version actuelle
 
-- [Shield Radio 2.0.5 — CIA avec bannière « SHIELD RADIO FRANCE »](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.5/shield-radio.cia) pour installer l’application.
-- [Shield Radio 2.0.2 — 3DSX](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.2/shield-radio.3dsx) pour Homebrew Launcher ; cette version n’a pas changé.
-- [Shield Radio 2.0.5 — sources (ZIP)](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.5/Shield-Radio-3DS-v2.0.5-source.zip) — code et ressources nécessaires à la compilation, sans binaires générés.
+La dernière version est **[v2.0.11](https://github.com/Shield-77/Shield-Radio-3DS/releases/tag/v2.0.11)**. Télécharger le fichier `shield-radio.cia` de cette release. Le Title ID reste `000400000F643100` pour mettre à jour une installation existante. Une ancienne version 3DSX est disponible dans la release v2.0.2 ; elle n'a pas les corrections récentes du CIA.
 
-La v2.0.5 ajoute une protection lors d’une fermeture du capot très rapide pendant le lancement. Elle ne peut pas garantir le comportement du menu HOME avant que l’application prenne la main. Test sur console encore nécessaire.
+La v2.0.11 corrige le Bass Boost (Off, +6, +9, +16 et +20 dB), met à jour le flux DLF Kultur, affiche les codes CURL/HTTP lors des reconnexions et explique la mise en tampon dans le guide. **Shield-77 a validé cette version sur Old 3DS.** Les adresses des radios peuvent néanmoins changer indépendamment de l'application.
 
-Activer le Wi-Fi avant de lancer l’application. La console ne dispose pas de tuner FM : l’accès Internet est nécessaire. Avec le capot fermé pendant la lecture, l’application reste active et consomme donc davantage de batterie.
+## Utilisation
 
-Désolé pour le retard des mises à jour ! 😭
+- Activer le Wi-Fi avant de lancer l'application.
+- **Haut/Bas** ou l'écran tactile : choisir une station.
+- **A** : lancer ou arrêter la station choisie. **B** : arrêter la lecture.
+- **L/R** : changer de station. **X** : verrouiller ou déverrouiller L/R.
+- **Y** : parcourir les profils de basses. **START** : quitter.
 
-Je n'arrivais plus à lancer Codex parce que mon bon vieux Thomson a encore décidé de ne pas coopérer au pire moment. 💀
+La lecture avec le capot fermé maintient la connexion active et consomme de la batterie. Les stations et leurs flux appartiennent à leurs exploitants.
 
-Cette fois, le fichier `config.toml` de Codex s'est retrouvé corrompu, ce qui empêchait complètement l'application de démarrer.
+## Code source et compilation
 
-Bref, le Thomson a encore essayé de saboter le développement de SHIELD Radio. 😂
-Maintenant que c est résolue je vais étudier comment cook à mort shield radio (codex met simplement mes idées au codes mais ça ne fait pas de moi un vrai dev🔥)
-Je trouve ça top de pouvoir mettre mes idées au codes avec codex, je vais essayer de voir comment apprendre le codage ou de mieux exploiter codex.
+Les dossiers [`source/`](source/) et [`include/`](include/) contiennent le code de la v2.0.11. Pour compiler, installer devkitPro avec devkitARM, libctru, citro2d, libcurl, mbedTLS et zlib, puis lancer `make`. Le CIA demande aussi les outils `makerom` et `bannertool` ; ils ne sont pas inclus ici.
 
-En meme temps qui a eu cette idée de lui fouttre windows avec 4Go de ram et un si petit cpu 😭
-Bon cool au moins ça m'apprends encore plus l'optimisation.
-
-bref les changement à venir ?
-Je vais les mettre d'abords à l'ecrit puis réfléchir à ce que pourrais apporter de plus cette app..
--La rendre international, vous galerez avec les liens url ? Pas de panique shield Radio a deja un bon stock de radio préenregistré ! 
-Ce projet sera open source, car de mon avis il est **pour l'instant** stable. (plus ou moins selon les perspectives 💀)
-J'assume completement l'usage de codex.
+Le code propre à SHIELD Radio est sous [licence MIT](LICENSE). Le décodeur minimp3 est sous [CC0](MINIMP3-LICENSE). Les marques, logos et contenus des stations ne sont pas accordés par la licence du code. Toute version modifiée doit être présentée comme une modification, sans se faire passer pour une version officielle de Shield-77. Le code a été généré avec l'aide de Codex ; la conception et les essais sur console viennent de Shield-77.
