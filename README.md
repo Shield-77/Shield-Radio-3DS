@@ -1,5 +1,7 @@
 # SHIELD Radio
 
+**Codex was used to generate the code**
+
 SHIELD Radio est un lecteur de radios Internet pour 3DS, conçu pour rester utilisable sur Old 3DS. Il a besoin du Wi-Fi ; la console ne reçoit pas la FM directement.
 
 ## Version actuelle
