@@ -1,6 +1,12 @@
 # SHIELD Radio
 
-**Codex was used to generate the code**
+## Télécharger / Download
+
+**[shield-radio.cia (v2.0.11)](https://github.com/Shield-77/Shield-Radio-3DS/releases/download/v2.0.11/shield-radio.cia)** · [Toutes les releases](https://github.com/Shield-77/Shield-Radio-3DS/releases)
+
+Sur une 3DS modifiée, ouvrir FBI > Remote Install > Scan QR Code.
+
+<img src="docs/cia-qr.svg" width="220" alt="QR code FBI vers le CIA v2.0.11" />
 
 SHIELD Radio est un lecteur de radios Internet pour 3DS, conçu pour rester utilisable sur Old 3DS. Il a besoin du Wi-Fi ; la console ne reçoit pas la FM directement.
 
@@ -25,3 +31,7 @@ La lecture avec le capot fermé maintient la connexion active et consomme de la 
 Les dossiers [`source/`](source/) et [`include/`](include/) contiennent le code de la v2.0.11. Pour compiler, installer devkitPro avec devkitARM, libctru, citro2d, libcurl, mbedTLS et zlib, puis lancer `make`. Le CIA demande aussi les outils `makerom` et `bannertool` ; ils ne sont pas inclus ici.
 
 Le code propre à SHIELD Radio est sous [licence MIT](LICENSE). Le décodeur minimp3 est sous [CC0](MINIMP3-LICENSE). Les marques, logos et contenus des stations ne sont pas accordés par la licence du code. Toute version modifiée doit être présentée comme une modification, sans se faire passer pour une version officielle de Shield-77. Le code a été généré avec l'aide de Codex ; la conception et les essais sur console viennent de Shield-77.
+
+## Développement
+
+Le code a été généré avec l'aide d'OpenAI Codex, un assistant de programmation par IA. SHIELD-77 conçoit les fonctionnalités et teste les applications sur console lorsque possible.
